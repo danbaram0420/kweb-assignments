@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <div class="page-intro">
+        <span class="page-title">
+            <h1>KWEB Survey Page</h1>
+        </span>
+        <span class="page-logo">
+            <img src="https://i.imgur.com/hSSFVSw.png" alt="KWEB logo" width="350"><br>
+        </span>
+        <span class="page-link">
+            <a href="https://kwebofficial.com/" title="KWEB Facebook" target="_blank">KWEB Homepage</a>
+        </span>
+    </div>
+
+    <div class="page-content">
+        <span class="question-1">
+            <h3 id="q1-title">1. Write your name.<br></h3>
+            <input id="q1-form" type="text" name="name">
+        </span>
+        <span class="question-2">
+            <h3 id="q2-title">2. Write your student number.<br></h3>
+            <input id="q2-form" type="text" name="student-number">
+        </span>
+        <span class="question-3">
+            <h3 id="q3-title">3. Select your member level.<br></h3>
+            <p class="q3-form">
+                <label><input id="member-Admin" type="radio" name="member-level" value="Admin">Admin</label>
+                <label><input id="member-Intern" type="radio" name="member-level" value="Intern">Intern</label>
+                <label><input id="member-Qualified" type="radio" name="member-level" value="Qualified">Qualified</label>
+            </p>
+        </span>
+        <span class="question-4">
+            <h3 id="q4-title">4. Select all fields you are interested in.<br></h3>
+            <p class="q4-form">
+                <label><input id="field-FrontEnd" type="checkbox" name="interested" value="Front-end">Front-end</label>
+                <label><input id="field-BackEnd" type="checkbox" name="interested" value="Back-end">Back-end</label>
+                <label><input id="field-WebCrawling" type="checkbox" name="interested" value="Web_crawling">Web crawling</label>
+                <label><input id="field-Websecurity" type="checkbox" name="interested" value="Web_security">Web security</label>
+                <label><input id="field-Etc" type="checkbox" name="interested" value="Etc">Etcetera <input type="text"></label>
+            </p>
+        </span>
+        <span class="question-5">
+            <h3 id="q5-title">5. Give us your overall evaluation and feedback about the previous study.<br></h3>
+            <textarea id="q5-form" cols="95" rows="20" name="previous_study"></textarea><br>
+        </span>
+        <span class="submit">
+            <button type="submit">Submit your answers</button>
+        </span>
+    </div>
+</html>
