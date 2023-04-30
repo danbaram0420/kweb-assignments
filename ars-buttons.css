@@ -1,0 +1,18 @@
+.header{
+    font: size 15px;
+}
+.numbers{
+    text-align:center;
+}
+.number{
+    text-align: center;
+    font-size: 15px;
+    width:45px;
+    padding-top:12px;
+    padding-bottom:12px;
+    margin:20px 10px 20px 10px;
+    border: 1px solid black;
+    border-radius: 400px;
+    background-color:rgb(240, 128, 128);
+    display:inline-block;
+}
