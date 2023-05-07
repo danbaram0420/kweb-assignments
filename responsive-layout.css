@@ -1,0 +1,59 @@
+div{
+    margin:10px;
+}
+.header{
+    height:100px;
+    background-color:pink;
+    border: 3px solid red;
+}
+.navbar{
+    height:150px;
+    background-color: yellow;
+    border: 3px solid orange;
+}
+.content{
+    height: 250px;
+    background-color: skyblue;
+    border: 3px solid blue;
+}
+.footer{
+    height:150px;
+    background-color: yellowgreen;
+    border: 3px solid green;
+}
+
+
+
+@media only screen and (min-width:800px){
+    div{
+        margin:10px;
+    }
+    .header{
+        height:100px;
+        background-color:pink;
+        border: 3px solid red;
+    }
+    .navbar{
+        height:400px;
+        width:10%;
+        margin:0px;
+        background-color: yellow;
+        border: 3px solid orange;
+        display: inline-block;
+    }
+    .content{
+        height: 400px;
+        width: 88%;
+        margin:0px;
+        background-color: skyblue;
+        border: 3px solid blue;
+        float:right;
+    }
+    .footer{
+        height:150px;
+        background-color: yellowgreen;
+        border: 3px solid green;
+    }
+}
+
+    
